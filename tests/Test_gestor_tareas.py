@@ -25,6 +25,5 @@ class TestGestorTareas(unittest.TestCase):
         self.assertEqual(tareas[0].titulo, "Tarea 1")
         self.assertEqual(tareas[1].titulo, "Tarea 2")
 
-
 if __name__ == '__main__':
     unittest.main()
